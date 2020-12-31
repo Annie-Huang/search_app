@@ -1,0 +1,7 @@
+Vanilla JavaScript Search App | Wikipedia API (https://www.youtube.com/watch?v=Dk6Wopar10k)
+
+https://github.com/gitdagray/search_app_tutorial
+https://github.com/Annie-Huang/search_app
+
+============================================================================
+
