@@ -5,3 +5,5 @@ https://github.com/Annie-Huang/search_app
 
 ============================================================================
 
+<div id="stats" class="stats" aria-live="assertive"></div>
+We want screen reader to announce how many results were found after the search result is completed.
