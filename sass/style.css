@@ -1,4 +1,4 @@
-.searchEntry, footer, main {
+.results, .searchEntry, footer, main {
   display: flex;
   align-items: center;
 }
@@ -185,6 +185,23 @@ img {
 .searchEntry .searchBar:hover,
 .searchEntry .searchBar:focus-within {
   box-shadow: 0 2px 5px 2px #e6e6e6;
+}
+
+.results {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.5rem 1rem;
+  width: 90vw;
+}
+@media only screen and (min-width: 768px) {
+  .results {
+    width: 75vw;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .results {
+    width: 55vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
