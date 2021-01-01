@@ -31,5 +31,19 @@
     @include mq(1025px) {
       width: 60vw;
     }
+
+    input[type='text'] {
+      flex-grow: 1; // this allow the the input take up the rest of the space within the parent.
+      font-size: 0.75rem;
+      text-align: left; // be default it's already left align
+      letter-spacing: 0.1rem;
+      border: 0;
+      outline: none;
+      min-width: 150px;
+
+      @include mq(768px) {
+        font-size: 1.25rem;
+      }
+    }
   }
 }

@@ -121,5 +121,19 @@ img {
     width: 60vw;
   }
 }
+.searchEntry .searchBar input[type=text] {
+  flex-grow: 1;
+  font-size: 0.75rem;
+  text-align: left;
+  letter-spacing: 0.1rem;
+  border: 0;
+  outline: none;
+  min-width: 150px;
+}
+@media only screen and (min-width: 768px) {
+  .searchEntry .searchBar input[type=text] {
+    font-size: 1.25rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
