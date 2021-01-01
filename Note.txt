@@ -9,6 +9,8 @@ https://fonts.google.com/specimen/Roboto
 https://fontawesome.com/icons?d=gallery
 https://fontawesome.com/icons/search?style=solid
 https://fontawesome.com/icons/times?style=solid
+
+https://medium.com/@linker21/scss-placeholders-vs-mixins-fe79b9dbb6d5
 ============================================================================
 
 <div id="stats" class="stats" aria-live="assertive"></div>

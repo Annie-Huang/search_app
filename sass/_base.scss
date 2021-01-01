@@ -11,3 +11,21 @@ $link-color: #1a0dab;
 $link-visited-color: #609;
 $link-outline-color: #000;
 $font-stack: "Roboto", Arial, sans-serif;
+
+// % is the Place holder, it will not show up in the generated CSS, only the selectors that extend them will be included in the output.
+%flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flexColumn {
+  @extend %flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@mixin flexCenter {
+  @extend %flex;
+  justify-content: center;
+}
+
