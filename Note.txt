@@ -6,6 +6,9 @@ https://github.com/Annie-Huang/search_app
 https://cdnjs.com/libraries/font-awesome
 https://fonts.google.com/
 https://fonts.google.com/specimen/Roboto
+https://fontawesome.com/icons?d=gallery
+https://fontawesome.com/icons/search?style=solid
+https://fontawesome.com/icons/times?style=solid
 ============================================================================
 
 <div id="stats" class="stats" aria-live="assertive"></div>
