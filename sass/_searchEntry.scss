@@ -64,6 +64,22 @@
       }
     }
 
-    
+    // create the effect of it moving up a bit.
+    .button:hover,
+    .button:focus {
+      i {
+        padding-bottom: 0.5rem;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+      }
+    }
+
+    // there is only one button class, not sure why does it has to seperate .button and .searchButton
+    .searchButton:hover,
+    .searchButton:focus {
+      i {
+        color: $logo-green;
+      }
+    }
   }
 }

@@ -152,5 +152,15 @@ img {
     font-size: 1.5rem;
   }
 }
+.searchEntry .searchBar .button:hover i,
+.searchEntry .searchBar .button:focus i {
+  padding-bottom: 0.5rem;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.searchEntry .searchBar .searchButton:hover i,
+.searchEntry .searchBar .searchButton:focus i {
+  color: #3cba54;
+}
 
 /*# sourceMappingURL=style.css.map */
