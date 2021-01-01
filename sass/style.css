@@ -103,5 +103,23 @@ img {
     letter-spacing: -10px;
   }
 }
+.searchEntry .searchBar {
+  width: 90vw;
+  display: flex;
+  border: 2px solid #e6e6e6;
+  border-radius: 500px;
+  padding: 0.15rem 0.25rem 0.15rem 0.75rem;
+}
+@media only screen and (min-width: 768px) {
+  .searchEntry .searchBar {
+    width: 80vw;
+    padding: 1.25rem 1.5rem;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .searchEntry .searchBar {
+    width: 60vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
