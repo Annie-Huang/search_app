@@ -261,5 +261,26 @@ img {
 .results .searchResults .resultItem .resultTitle a:focus {
   outline: 2px solid #000;
 }
+.results .resultContents {
+  display: flex;
+  width: 100%;
+}
+.results .resultContents .resultImage {
+  margin-right: 0.5rem;
+}
+.results .resultContents .resultText {
+  flex-grow: 1;
+  font-size: 14px;
+  line-height: 20px;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media only screen and (min-width: 768px) {
+  .results .resultContents .resultText {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
