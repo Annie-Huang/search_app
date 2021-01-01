@@ -162,5 +162,25 @@ img {
 .searchEntry .searchBar .searchButton:focus i {
   color: #3cba54;
 }
+.searchEntry .searchBar .clear:hover i,
+.searchEntry .searchBar .clear:focus i {
+  color: #db3236;
+}
+@media only screen and (min-width: 768px) {
+  .searchEntry .searchBar .searchButton {
+    padding-left: 1rem;
+  }
+}
+.searchEntry .searchBar .clear {
+  justify-content: center;
+  align-items: center;
+  color: #70757a;
+  border-right: thin solid #d9d9d9;
+}
+@media only screen and (min-width: 768px) {
+  .searchEntry .searchBar .clear {
+    padding: 0 1rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
