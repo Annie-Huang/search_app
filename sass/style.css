@@ -135,5 +135,22 @@ img {
     font-size: 1.25rem;
   }
 }
+.searchEntry .searchBar .button {
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+  min-width: 48px;
+  min-height: 48px;
+  outline: none;
+}
+.searchEntry .searchBar .button i {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+}
+@media only screen and (min-width: 768px) {
+  .searchEntry .searchBar .button i {
+    font-size: 1.5rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
