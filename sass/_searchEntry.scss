@@ -95,6 +95,7 @@
     }
 
     .clear {
+      //display: flex; // this is how it will align properly, but we will do it programmatically.
       justify-content: center;
       align-items: center;
       color: $stats-color;
