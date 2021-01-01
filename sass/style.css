@@ -73,4 +73,17 @@ img {
   }
 }
 
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+.none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
