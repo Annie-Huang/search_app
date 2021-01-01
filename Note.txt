@@ -3,6 +3,9 @@ Vanilla JavaScript Search App | Wikipedia API (https://www.youtube.com/watch?v=D
 https://github.com/gitdagray/search_app_tutorial
 https://github.com/Annie-Huang/search_app
 
+https://cdnjs.com/libraries/font-awesome
+https://fonts.google.com/
+https://fonts.google.com/specimen/Roboto
 ============================================================================
 
 <div id="stats" class="stats" aria-live="assertive"></div>
