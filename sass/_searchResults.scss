@@ -19,4 +19,16 @@
       }
     }
   }
+
+  .searchResults {
+    width: 100%;
+    .resultItem {
+      @include flexColumn;
+      width: 100%;
+      padding: 0.25rem 0;
+      @include mq(768px) {
+        padding: 0.5rem 0;
+      }
+    }
+  }
 }

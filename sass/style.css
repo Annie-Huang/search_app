@@ -1,4 +1,4 @@
-.results, .searchEntry, footer, main {
+.results .searchResults .resultItem, .results, .searchEntry, footer, main {
   display: flex;
   align-items: center;
 }
@@ -213,6 +213,20 @@ img {
 @media only screen and (min-width: 768px) {
   .results .statsBar .stats {
     font-size: 1rem;
+  }
+}
+.results .searchResults {
+  width: 100%;
+}
+.results .searchResults .resultItem {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0.25rem 0;
+}
+@media only screen and (min-width: 768px) {
+  .results .searchResults .resultItem {
+    padding: 0.5rem 0;
   }
 }
 
