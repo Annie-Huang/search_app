@@ -62,4 +62,15 @@ img {
   color: #3cba54;
 }
 
+.exclaim {
+  display: inline-block;
+  font-size: 2.5rem;
+  transform: rotate(12deg);
+}
+@media only screen and (min-width: 768px) {
+  .exclaim {
+    font-size: 5rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
