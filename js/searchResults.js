@@ -16,7 +16,7 @@ export const buildSearchResults = (resultArray) => {
       const resultImage = createResultImage(result);
       resultContents.append(resultImage);
     }
-    const resultText = creatResultText(result);
+    const resultText = createResultText(result);
     resultContents.append(resultText);
     resultItem.append(resultContents);
     const searchResults = document.getElementById('searchResults');
@@ -46,7 +46,7 @@ const createResultImage = (result) => {
   resultImage.append(img);
   return resultImage;
 }
-const creatResultText = (result) => {
+const createResultText = (result) => {
   const resultText = document.createElement('div');
   resultText.classList.add('resultText');
   const resultDescription = document.createElement('p');
