@@ -1,4 +1,4 @@
-import {setSearchFocus, showClearTextButton, clearSearchText} from './searchBar.js';
+import {setSearchFocus, showClearTextButton, clearSearchText, clearPushListener} from './searchBar.js';
 import {getSearchTerm, retrieveSearchResults} from './dataFunctions.js';
 import {deleteSearchResults, buildSearchResults, clearStatsLine, setStatsLine} from './searchResults.js';
 
@@ -15,9 +15,11 @@ const initApp = () => {
   const search = document.getElementById('search'); // the input field
   search.addEventListener('input', showClearTextButton);
 
-  // Clear the input field when the clear button is clicked.
   const clear = document.getElementById('clear');
+  // Clear the input field when the clear button is clicked.
   clear.addEventListener('click', clearSearchText);
+  // Clear the input when you use the keyboard to tab into the cross and click enter or space.
+  clear.addEventListener('keydown', clearPushListener);
 
   const form = document.getElementById('searchBar');
   form.addEventListener('submit', submitTheSearch);
