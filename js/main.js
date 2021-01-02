@@ -1,4 +1,4 @@
-import {setSearchFocus, showClearTextButton} from './searchBar.js';
+import {setSearchFocus, showClearTextButton, clearSearchText} from './searchBar.js';
 import {getSearchTerm, retrieveSearchResults} from './dataFunctions.js';
 import {deleteSearchResults, buildSearchResults, clearStatsLine, setStatsLine} from './searchResults.js';
 
@@ -11,9 +11,13 @@ document.addEventListener('readystatechange', event => {
 const initApp = () => {
   setSearchFocus();
 
-  // TODO: 3 listeners clear text
+  // Decide to show the cross button or not depending on whether use has enter something in the input.
   const search = document.getElementById('search'); // the input field
   search.addEventListener('input', showClearTextButton);
+
+  // Clear the input field when the clear button is clicked.
+  const clear = document.getElementById('clear');
+  clear.addEventListener('click', clearSearchText);
 
   const form = document.getElementById('searchBar');
   form.addEventListener('submit', submitTheSearch);
