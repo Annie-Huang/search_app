@@ -1,3 +1,5 @@
+import {setSearchFocus} from './searchBar.js';
+
 document.addEventListener('readystatechange', event => {
   if (event.target.readyState === 'complete') {
     initApp();
@@ -5,7 +7,7 @@ document.addEventListener('readystatechange', event => {
 });
 
 const initApp = () => {
-  // set the focus
+  setSearchFocus();
 
   // 3 listeners clear text
 
@@ -18,5 +20,5 @@ const submitTheSearch = (event) => {
   event.preventDefault();
   // delete search results
   // process the search
-  // set the focus
+  setSearchFocus();
 }
