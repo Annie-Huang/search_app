@@ -1,3 +1,12 @@
+export const deleteSearchResults = () => {
+  const parentElement = document.getElementById('searchResults');
+  let child = parentElement.lastElementChild; // you can do first or last element child
+  while (child) {
+    parentElement.removeChild(child);
+    child = parentElement.lastElementChild;
+  }
+}
+
 export const buildSearchResults = (resultArray) => {
   resultArray.forEach(result => {
     const resultItem = createResultItem(result);
