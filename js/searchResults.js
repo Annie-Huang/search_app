@@ -46,3 +46,7 @@ const creatResultText = (result) => {
   resultText.append(resultDescription);
   return resultText;
 }
+
+export const clearStatsLine = () => {
+  document.getElementById('stats').textContent = '';
+}
