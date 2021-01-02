@@ -11,6 +11,7 @@ https://fontawesome.com/icons/search?style=solid
 https://fontawesome.com/icons/times?style=solid
 
 https://medium.com/@linker21/scss-placeholders-vs-mixins-fe79b9dbb6d5
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 ============================================================================
 
 <div id="stats" class="stats" aria-live="assertive"></div>
@@ -18,3 +19,7 @@ We want screen reader to announce how many results were found after the search r
 
 
 C:\react\search_app>npm init -y
+
+
+<script src="js/main.js" type='module' defer></script>
+type='module' does not support import and dynamic import for IE.
